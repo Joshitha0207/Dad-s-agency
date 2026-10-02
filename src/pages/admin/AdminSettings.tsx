@@ -7,7 +7,7 @@ import { getOwnerWhatsAppNumber, setOwnerWhatsAppNumber, createWhatsAppUrl } fro
 export const AdminSettings: React.FC = () => {
   const [shopName, setShopName] = useState("Dad's Agency");
   const [address, setAddress] = useState('Vivekanandar Nagar, College Road, Tiruppur, Tamil Nadu');
-  const [phone, setPhone] = useState('9843041633');
+  const [phone, setPhone] = useState('9843241633');
   const [ownerWhatsApp, setOwnerWhatsApp] = useState(getOwnerWhatsAppNumber());
   const [instagram, setInstagram] = useState('https://www.instagram.com/jagannathen?igsh=cjhlaGRtaWUyMG8x');
   const [deliveryFee, setDeliveryFee] = useState(30);
@@ -104,7 +104,7 @@ export const AdminSettings: React.FC = () => {
                     maxLength={10}
                     value={ownerWhatsApp}
                     onChange={(e) => setOwnerWhatsApp(e.target.value.replace(/\D/g, '').slice(0, 10))}
-                    placeholder="9843041633"
+                    placeholder="9843241633"
                     className="w-full px-3.5 py-2.5 bg-transparent text-sm font-semibold text-emerald-950 focus:outline-hidden"
                   />
                 </div>

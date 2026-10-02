@@ -57,11 +57,11 @@ export const Home: React.FC = () => {
                 <span>Vivekanandar Nagar, College Road, Tiruppur</span>
               </div>
               <a
-                href="tel:9843041633"
+                href="tel:9843241633"
                 className="flex items-center gap-1.5 bg-black/15 backdrop-blur-md px-3.5 py-2 rounded-full border border-white/20 hover:bg-black/25 transition-colors"
               >
                 <Phone className="w-4 h-4 text-emerald-300 shrink-0" />
-                <span>9843041633</span>
+                <span>9843241633</span>
               </a>
             </div>
 
@@ -162,10 +162,10 @@ export const Home: React.FC = () => {
         <div className="flex items-center gap-3 shrink-0">
           <div className="text-right hidden sm:block">
             <p className="text-xs font-bold text-gray-900">Need help with an order?</p>
-            <p className="text-xs text-pink-600 font-semibold">Call 9843041633</p>
+            <p className="text-xs text-pink-600 font-semibold">Call 9843241633</p>
           </div>
           <a
-            href="tel:9843041633"
+            href="tel:9843241633"
             className="px-5 py-2.5 bg-pink-600 hover:bg-pink-700 text-white text-xs font-bold rounded-full shadow-md transition-colors"
           >
             Call Shop Now

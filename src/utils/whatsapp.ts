@@ -1,7 +1,7 @@
 import { Order } from '../types/order';
 import { formatCurrency, formatDate } from './formatting';
 
-export const DEFAULT_OWNER_PHONE = '9843041633'; // Dad's Agency shop owner in Tiruppur
+export const DEFAULT_OWNER_PHONE = '9843241633'; // Dad's Agency shop owner in Tiruppur
 export const OWNER_WHATSAPP_STORAGE_KEY = 'dads_agency_owner_whatsapp';
 
 export const getOwnerWhatsAppNumber = (): string => {

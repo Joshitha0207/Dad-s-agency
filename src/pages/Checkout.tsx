@@ -465,7 +465,7 @@ export const Checkout: React.FC = () => {
                   <div className="bg-white p-3 rounded-2xl shadow-md border border-purple-100 shrink-0 text-center space-y-1.5">
                     <img
                       src={`https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=${encodeURIComponent(
-                        `upi://pay?pa=9843041633@upi&pn=${encodeURIComponent("Dad's Agency")}&am=${grandTotal}&cu=INR&tn=${encodeURIComponent("Order Payment")}`
+                        `upi://pay?pa=9843241633@upi&pn=${encodeURIComponent("Dad's Agency")}&am=${grandTotal}&cu=INR&tn=${encodeURIComponent("Order Payment")}`
                       )}`}
                       alt="UPI QR Code"
                       className="w-36 h-36 mx-auto rounded-xl"
@@ -479,12 +479,12 @@ export const Checkout: React.FC = () => {
                       <span className="text-[10px] font-bold uppercase tracking-wider text-purple-700">Shop UPI ID:</span>
                       <div className="flex items-center justify-center sm:justify-start gap-2 mt-1">
                         <code className="bg-white px-3 py-1 rounded-lg border border-purple-200 font-mono font-black text-sm text-purple-900">
-                          9843041633@upi
+                          9843241633@upi
                         </code>
                         <button
                           type="button"
                           onClick={() => {
-                            navigator.clipboard.writeText('9843041633@upi');
+                            navigator.clipboard.writeText('9843241633@upi');
                             setCopiedUpi(true);
                             setTimeout(() => setCopiedUpi(false), 2000);
                           }}
@@ -498,7 +498,7 @@ export const Checkout: React.FC = () => {
 
                     <div className="flex flex-wrap items-center justify-center sm:justify-start gap-2 pt-1">
                       <a
-                        href={`upi://pay?pa=9843041633@upi&pn=${encodeURIComponent("Dad's Agency")}&am=${grandTotal}&cu=INR&tn=${encodeURIComponent("Order Payment")}`}
+                        href={`upi://pay?pa=9843241633@upi&pn=${encodeURIComponent("Dad's Agency")}&am=${grandTotal}&cu=INR&tn=${encodeURIComponent("Order Payment")}`}
                         className="px-4 py-2 bg-purple-600 hover:bg-purple-700 text-white font-extrabold text-xs rounded-full shadow-md shadow-purple-200 transition-all flex items-center gap-1.5"
                       >
                         <span>📱 Tap to Pay on UPI App</span>

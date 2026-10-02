@@ -20,9 +20,9 @@ export const Navbar: React.FC = () => {
             <span>📍 Vivekanandar Nagar, College Road, Tiruppur, Tamil Nadu</span>
           </div>
           <div className="flex items-center gap-4 shrink-0">
-            <a href="tel:9843041633" className="flex items-center gap-1 hover:underline">
+            <a href="tel:9843241633" className="flex items-center gap-1 hover:underline">
               <Phone className="w-3 h-3" />
-              <span>9843041633</span>
+              <span>9843241633</span>
             </a>
             <a
               href="https://www.instagram.com/jagannathen?igsh=cjhlaGRtaWUyMG8x"

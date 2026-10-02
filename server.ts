@@ -68,8 +68,8 @@ function initDb(): StoreData {
         parsed.settings = {
           shopName: "Dad's Agency",
           address: 'Vivekanandar Nagar, College Road, Tiruppur, Tamil Nadu',
-          phone: '9843041633',
-          ownerWhatsApp: '9843041633',
+          phone: '9843241633',
+          ownerWhatsApp: '9843241633',
           instagram: 'https://www.instagram.com/jagannathen?igsh=cjhlaGRtaWUyMG8x',
           deliveryFee: 30
         };
@@ -89,8 +89,8 @@ function initDb(): StoreData {
     settings: {
       shopName: "Dad's Agency",
       address: 'Vivekanandar Nagar, College Road, Tiruppur, Tamil Nadu',
-      phone: '9843041633',
-      ownerWhatsApp: '9843041633',
+      phone: '9843241633',
+      ownerWhatsApp: '9843241633',
       instagram: 'https://www.instagram.com/jagannathen?igsh=cjhlaGRtaWUyMG8x',
       deliveryFee: 30
     },

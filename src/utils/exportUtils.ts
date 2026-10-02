@@ -38,7 +38,7 @@ export const exportOrdersPDF = (orders: Order[], title: string = "Dad's Agency -
   doc.text("Dad's Agency 🍦", 14, 20);
   doc.setFontSize(11);
   doc.setTextColor(71, 85, 105);
-  doc.text("Vivekanandar Nagar, College Road, Tiruppur, Tamil Nadu | Ph: 9843041633", 14, 26);
+  doc.text("Vivekanandar Nagar, College Road, Tiruppur, Tamil Nadu | Ph: 9843241633", 14, 26);
   doc.text(title, 14, 32);
   doc.text(`Generated on: ${formatDate(new Date().toISOString())}`, 14, 38);
 
@@ -108,7 +108,7 @@ export const generateOrderPdfInvoice = (order: Order) => {
   doc.setTextColor(71, 85, 105);
   doc.text("Ice Cream, Dairy & Chocolate Shop", 14, 26);
   doc.text("Vivekanandar Nagar, College Road, Tiruppur, Tamil Nadu", 14, 31);
-  doc.text("Phone: 9843041633 | Instagram: @jagannathen", 14, 36);
+  doc.text("Phone: 9843241633 | Instagram: @jagannathen", 14, 36);
 
   doc.setLineWidth(0.5);
   doc.setDrawColor(244, 114, 182);

@@ -204,7 +204,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const loginAdmin = (user: string, pass: string): boolean => {
     const cleanUser = user.trim().toLowerCase();
     if (
-      (cleanUser === 'admin' || cleanUser === '9843041633' || cleanUser === 'owner') &&
+      (cleanUser === 'admin' || cleanUser === '9843241633' || cleanUser === '9843041633' || cleanUser === 'owner') &&
       (pass === 'admin123' || pass === 'password123')
     ) {
       setIsAdminLoggedIn(true);

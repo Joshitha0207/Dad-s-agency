@@ -34,20 +34,20 @@ export const Footer: React.FC = () => {
             </div>
             <div className="flex items-center gap-2.5 text-sm font-semibold text-gray-800">
               <Phone className="w-5 h-5 text-pink-600 shrink-0" />
-              <a href="tel:9843041633" className="hover:text-pink-600 transition-colors">
-                9843041633
+              <a href="tel:9843241633" className="hover:text-pink-600 transition-colors">
+                9843241633
               </a>
             </div>
             <div className="pt-2 flex flex-wrap gap-2">
               <a
-                href="tel:9843041633"
+                href="tel:9843241633"
                 className="inline-flex items-center gap-1.5 px-4 py-2 bg-pink-600 hover:bg-pink-700 text-white rounded-full text-xs font-bold shadow-sm transition-transform active:scale-95"
               >
                 <Phone className="w-3.5 h-3.5" />
                 Call Us Now
               </a>
               <a
-                href="https://api.whatsapp.com/send?phone=919843041633&text=Hi%20Dad's%20Agency!%20I%20have%20an%20inquiry%20regarding%20ice%20cream%20order."
+                href="https://api.whatsapp.com/send?phone=919843241633&text=Hi%20Dad's%20Agency!%20I%20have%20an%20inquiry%20regarding%20ice%20cream%20order."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 px-4 py-2 bg-emerald-600 hover:bg-emerald-700 text-white rounded-full text-xs font-bold shadow-sm transition-transform active:scale-95"
